@@ -1,2 +1,2 @@
 Git in test file
-2017-12-16
+Creating a new branch is quick & simple
