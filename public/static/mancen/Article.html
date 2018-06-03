@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>文章列表</title>
+    <link rel="stylesheet" href="static/common/layui/css/layui.css" media="all" />
+    <link rel="stylesheet" href="static/mancen/css/global.css" media="all">
+    <link rel="stylesheet" href="static/common/css/font-awesome.min.css">
+    <link rel="stylesheet" href="static/mancen/css/table.css" />
+    <style type="text/css">
+    	.tupian{
+    		width: 50px;
+    		height: 30px;
+    		border: 1px solid white;
+    	}
+    	.tupian img{
+    		width: 50px;
+    		height: 30px;
+    		display: none;
+    	}
+    	.layui-laypage{
+    		margin-left: 20px;
+    	}
+    	.chupeng:hover .tupian img{
+    		display:block;
+    	}
+    	.layui-btn{
+    		height: 25px;
+    		line-height: 25px;
+    		font-size: 13px;
+    	}
+    	.layui-field-box{
+    		padding: 0px 15px;
+    	}
+    	.input{
+			width: 200px;
+			height: 26px;
+			float: left;
+			border-right:none ;
+			border-radius: 4px 0px 0px 4px;
+			margin-top: -0.5px;
+		}
+		.layui-icon{
+			height: 25px;
+		}
+		.suo{
+			border-radius: 0px 4px 4px 0px;
+		}
+		
+    </style>
+</head>
+
+
+<body>
+<div class="admin-main">
+	<blockquote class="layui-elem-quote">
+	    <input name="title" lay-verify="title" autocomplete="off" class="layui-input input" type="text">
+	    <input type="submit" class="layui-icon layui-btn suo" value="&#xe615" />
+	    <button class="layui-btn layui-btn-danger layui-btn-sm">批量删除</button>
+	</blockquote>
+        <div class="layui-field-box layui-form">
+        	
+        	<table class="layui-table" lay-data="{url:'table.json', page:true, id:'test',height: 'full-25'}" lay-filter="test" id="test">
+		        <thead>
+		            <tr>
+		            	<th lay-data="{type:'checkbox'}"></th>
+		                <th lay-data="{field:'id',width:199 , sort: true}">序号</th>
+		                <th lay-data="{field:'username',width:199 , edit: 'text'}">文章名称</th>
+		                <th lay-data="{field:'sex',width:199 , edit: 'text', sort: true}">文章类型</th>
+		                <th lay-data="{field:'city',width:199 , edit: 'text'}">发布人</th>
+		                <th lay-data="{field:'sign',width:199 , edit: 'text'}">文章作者</th>
+		                <th lay-data="{field:'sign',width:199 ,}">文章封面</th>
+		                <th lay-data="{field:'score',width:199 , edit: 'text',  sort: true}">发布时间</th>
+		                <th lay-data="{align:'center',width:199 , toolbar: '#barDemo'}">操作</th>
+		            </tr>
+		        </thead>
+		  </table>
+        </div>  
+</div>
+
+<script type="text/javascript" src="static/common/layui/layui.all.js"></script>
+<script type="text/html" id="barDemo">
+	<a class="layui-btn layui-btn-primary layui-btn-xs" lay-event="detail">查看</a>
+	<a class="layui-btn layui-btn-xs" lay-event="edit">编辑</a>
+	<a class="layui-btn layui-btn-danger layui-btn-xs" lay-event="del">删除</a>
+</script>
+<script>
+    layui.config({
+				base: 'static/common/layui/lay/'
+			});
+			
+			layui.use(['paging','jquery','laypage','form'], function()
+			{
+				var $ = layui.jquery,
+					paging = layui.paging,
+					laypage = layui.laypage,
+					layerTips = parent.layer === undefined ? layui.layer : parent.layer, //获取父窗口的layer对象
+					layer = layui.layer, //获取当前窗口的layer对象
+					form = layui.form();
+					
+				
+
+			//点击添加分类
+				$("#zuozhe").click(function()
+				{
+					//添加弹框
+					layer.open({
+					  	type: 2,  //iframe
+					  	title: '添加分类',
+					  	shadeClose: true,
+					  	shade: 0.8,
+					 	area: ['1000px', '90%'],         //弹框默认宽高
+					  	content: 'tianjiazuozhe.html',  //iframe的url
+						resize:true						//允许窗口拉伸
+					}); 
+				});
+				
+
+        //分页
+        laypage({
+            cont: 'page'
+            ,pages: 100 //总页数
+            ,groups: 5 //连续显示分页数
+        });
+
+        paging.init({
+            url: 'datas/laytpl_laypage_data.json', //地址
+            elem: '#content', //内容容器
+            params: { //发送到服务端的参数
+            },
+            type: 'GET',
+            tempElem: '#tpl', //模块容器
+            pageConfig: { //分页参数配置
+                elem: '#paged', //分页容器
+                pageSize: 3 //分页大小
+            },
+            success: function() { //渲染成功的回调
+                //alert('渲染成功');
+            },
+            fail: function(msg) { //获取数据失败的回调
+                //alert('获取数据失败')
+            },
+            complate: function() { //完成的回调
+                //alert('处理完成');
+                //重新渲染复选框
+                form.render('checkbox');
+                form.on('checkbox(allselector)', function(data) {
+                    var elem = data.elem;
+
+                    $('#content').children('tr').each(function() {
+                        var $that = $(this);
+                        //全选或反选
+                        $that.children('td').eq(0).children('input[type=checkbox]')[0].checked = elem.checked;
+                        form.render('checkbox');
+                    });
+                });
+
+                //绑定所有编辑按钮事件
+                $('#content').children('tr').each(function() {
+                    var $that = $(this);
+                    $that.children('td:last-child').children('a[data-opt=edit]').on('click', function() {
+                        layer.msg($(this).data('name'));
+                    });
+                    
+                    
+                    
+                 		
+				
+                    
+                });
+
+            },
+        });
+    });
+</script>
+</body>
+
+</html>

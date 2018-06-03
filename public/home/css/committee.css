@@ -1,0 +1,97 @@
+﻿@charset "utf-8";
+.main {
+	width: 1200px;
+	margin: 100px auto 70px;
+	overflow: hidden;
+	font-size: 14px
+}
+
+.article_content {
+	width: 980px
+}
+
+.path_area {
+	margin-bottom: 20px
+}
+
+.path_area a {
+	color: #5e6267;
+	text-decoration: none
+}
+
+.path_area .current {
+	cursor: text;
+	color: #000
+}
+
+.content_title {
+	position: relative
+}
+
+.content_title .title {
+	color: #000;
+	font-size: 20px;
+	font-weight: 400
+}
+
+.content_title .show_all {
+	position: absolute;
+	right: 0;
+	top: 5px;
+	color: #0457b7;
+	font-size: 14px;
+	text-decoration: none
+}
+
+.committee_item .title {
+	padding: 30px 0 10px;
+	color: #333;
+	font-size: 16px;
+	font-weight: 400
+}
+
+.committee_item .txt,.shareholder_box .txt {
+	line-height: 30px;
+	color: #5e6267
+}
+
+.shareholder_box {
+	margin-top: 20px
+}
+
+.shareholder_list .shareholder_item {
+	line-height: 28px;
+	padding-left: 28px;
+	margin-bottom: 5px;
+	background: #f2f8fc;
+	border-left: 5px solid #0457b7
+}
+
+.shareholder_list .shareholder_item a {
+	color: #0457b7;
+	text-decoration: none
+}
+
+.board_committee_list,.board_list {
+	padding-top: 10px
+}
+
+.board_committee_list .board_committee_item,.board_list .board_item {
+	line-height: 2;
+	color: #5e6267;
+	_padding-bottom: 20px
+}
+
+.board_committee_item .dot,.board_item .dot {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	text-indent: -9999px;
+	*text-indent: 0;
+	overflow: hidden;
+	height: 2px;
+	width: 2px;
+	background-color: #333;
+	margin-right: 7px;
+	vertical-align: middle
+}
