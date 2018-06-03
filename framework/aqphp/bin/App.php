@@ -72,9 +72,15 @@ class App
         Route::parseUrl();//调用路由
 
         $control = A(MODULE.'.'.CONTROL);
+<<<<<<< HEAD:framework/aqphp/bin/App.php
 
         $action  = ACTION;
 
+=======
+
+        $action  = ACTION;
+
+>>>>>>> 46dd36e6a4bc8f97496d340bf0dd61d912f2990f:framework/aqphp/bin/App.php
         if(!method_exists($control, $action))
         {
             error('[ '.CONTROL.config('CONTROL_FIX')." ]控制器中的[ {$action} ]动作不存在");
@@ -166,7 +172,11 @@ class App
         if (strpos($className,'controller')) {
 
             $classFile = '../'.MODULE_DIR.'/'.$className;
+<<<<<<< HEAD:framework/aqphp/bin/App.php
+			
+=======
 
+>>>>>>> 46dd36e6a4bc8f97496d340bf0dd61d912f2990f:framework/aqphp/bin/App.php
         } else {
 
             $classFile = '../'.PHP_DIR.'/'.$className;

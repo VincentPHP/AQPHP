@@ -392,12 +392,11 @@ function U($url)
     $module = MODULE;
     $control= CONTROL;
     
-	if(strstr($url, '/'))
-	{
+	if(strstr($url, '/')) {
+
 		$urlData = explode('/', $url);
 				
-		switch(count($urlData))
-		{
+		switch(count($urlData)) {
 			case 1:
 				$data = "/?m={$module}&c={$control}&a={$urlData[0]}";
 			    break;
@@ -408,12 +407,12 @@ function U($url)
 				$data = "/?m={$urlData[0]}&c={$urlData[1]}&a={$urlData[2]}";
 			    break;
 		}
-	}	
-	else
-	{
+
+	} else {
+
 		$data = "/?m={$module}&c={$control}&a={$url}";
 	}
-	
+
 	return $data;
 }
 

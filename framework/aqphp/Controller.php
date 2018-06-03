@@ -86,6 +86,24 @@ class Controller extends View
         }
     }
 
+    /**
+     * AJAX异步返回
+     * @param $data
+     * @param string $type
+     */
+    protected function ajaxReturn($data, $type='json')
+    {
+        if($type == 'json')
+        {
+            header("Content-type:application/json;");
+
+            //返回Json格式数据
+            //echo json_encode($data);
+            echo $data;
+            exit;
+        }
+    }
+
 
     /**
      * 重定向

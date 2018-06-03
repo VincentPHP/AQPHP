@@ -222,7 +222,7 @@ class Db
         $sql = "SELECT {$this->opt['field']} FROM {$this->table} {$this->opt['where']}";
         
 		$result = $this->data->query($sql) or die($this->dbError());
-		
+
         $row = $result->fetch_assoc();
 		
         return $row;   
