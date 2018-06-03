@@ -1,0 +1,1252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fe41485a-d23f-4e92-a133-8277446343c2" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/AQPHP Framework.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AQPHP Framework.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RBAC版AQPHP2.0.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/common/conf/config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/common/controller/Base.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/common/controller/HomeBase.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/common/controller/MancenBase.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/home/controller/Index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/mancen/controller/Index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/mancen/controller/Login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/mancen/controller/Seting.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/temp/log/2018_04_20.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/temp/log/2018_04_22.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/temp/log/2018_04_23.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/temp/log/2018_04_24.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/temp/log/2018_05_02.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/temp/log/2018_05_13.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/temp/log/2018_05_15.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/temp/log/2018_05_23.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/temp/log/2018_05_25.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/temp/log/2018_05_26.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/temp/log/2018_05_27.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/temp/log/2018_05_31.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/temp/tpl/home/9b395f0d3d266a6dacf4de1bd64773e7532636c2_0.file.index.html.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/temp/tpl/mancen/1fcb1e96cfc904f5a74936caafe06252ffce9c5a_0.file.index.html.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/temp/tpl/mancen/4166c6c64fc33dbf850886bfd167658494fac0fc_0.file.index.html.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/temp/tpl/mancen/865b45523de26b1ccfbb68c9199ada1d2091c073_0.file.main.html.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/temp/tpl/mancen/9c889dd0a53a59b6eefaf2c3849606cb277a24fa_0.file.Error.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templete/home/Index/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templete/home/committee.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templete/home/company.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templete/home/culture.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templete/home/investor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templete/home/system.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templete/mancen/Index/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templete/mancen/Index/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templete/mancen/Login/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templete/mancen/Seting/seting.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/RunTime.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/Start.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/aqphp/Controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/aqphp/Db.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/aqphp/Debug.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/aqphp/Dir.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/aqphp/Exception.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/aqphp/Hooks.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/aqphp/Image.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/aqphp/Log.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/aqphp/Page.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/aqphp/Request.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/aqphp/Route.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/aqphp/Upload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/aqphp/Url.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/aqphp/Verify.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/aqphp/View.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/aqphp/bin/App.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/aqphp/etc/Init.Config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/aqphp/exception/ErrorException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/aqphp/exception/HttpException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/aqphp/exception/PDOException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/aqphp/model/FormValidation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/Smarty.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/plugins/function.fetch.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/plugins/function.html_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_cacheresource.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_cacheresource_custom.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_cacheresource_keyvaluestore.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_data.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_cacheresource_file.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_compilebase.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_config_file_compiler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_data.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_debug.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_method_createdata.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_method_gettemplatevars.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_parsetree.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_parsetree_code.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_resource_eval.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_resource_extends.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_resource_file.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_resource_registered.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_resource_stream.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_resource_string.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_runtime_foreach.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_runtime_updatescope.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_templatecompilerbase.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_resource.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_resource_custom.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/common/constDirs.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/common/functions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/lang/en-us.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/lang/zh-cn.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/resource/view/Error.Tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/resource/view/Index.Tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/css/committee.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/css/company.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/css/culture.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/css/global.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/css/investor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/css/system.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/images/banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/images/banner_en.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/images/banner_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/images/banner_planet_mask.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/images/banner_subtitle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/images/banner_txt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/images/banner_txt2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/images/banner_video_img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/images/bg_date_sel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/images/close.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/images/dev_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/images/dev_1_en.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/images/dev_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/images/dev_2_en.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/images/dev_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/images/dev_3_en.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/images/footer_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/images/go_to_top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/images/go_to_top_ie6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/images/ico_doc_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/images/ico_doc_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/images/ico_doc_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/images/ico_doc_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/images/ico_dw_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/images/ico_play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/images/ico_up_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/images/icon_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/images/icon_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/images/icon_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/images/icon_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/images/icon_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/images/icon_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/images/icon_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/images/icon_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/images/icon_9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/images/icon_ai.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/images/icon_appstore.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/images/icon_article.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/images/icon_browser.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/images/icon_buluo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/images/icon_cartoon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/images/icon_cloud.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/images/icon_djr.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/images/icon_egame.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/images/icon_fm.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/images/icon_foot_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/images/icon_foot_normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/images/icon_game.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/images/icon_gaming.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/images/icon_kb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/images/icon_ke.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/images/icon_line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/images/icon_line_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/images/icon_mail.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/images/icon_manager.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/images/icon_manager_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/images/icon_map.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/images/icon_movie.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/images/icon_music.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/images/icon_news.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/images/icon_now.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/images/icon_open.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/images/icon_pay.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/images/icon_qeys.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/images/icon_qian.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/images/icon_qq.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/images/icon_qq_pay.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/images/icon_qzone.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/images/icon_sports.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/images/icon_tu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/images/icon_tucao.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/images/icon_video.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/images/icon_wechat.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/images/icon_wechat_gold.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/images/icon_wechat_pay.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/images/icon_weibo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/images/icon_wj.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/images/icon_youtu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/images/icon_zxg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/images/tencent_account.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/js/bowser.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/js/company.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/js/d3.v3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/js/exporting.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/js/highstock.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/js/investor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/js/jquery-1.11.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/js/jquery.dotdotdot.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/js/jquery.flexslider-min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/js/planetaryjs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/js/redirect.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/js/template.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/js/topojson.v1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/js/tvp.player_v2_jq.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/picture/1510737671.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/picture/1521623558.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/picture/17000341491836558.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/picture/17000361503920583.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/picture/17000391523362601.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/picture/1700291473387603.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/picture/act_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/picture/act_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/picture/act_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/picture/act_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/picture/act_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/picture/act_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/picture/act_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/picture/act_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/picture/bg-video.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/picture/conferencecalls20180416.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/picture/env.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/picture/gongyi1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/picture/gongyi10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/picture/gongyi2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/picture/gongyi3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/picture/gongyi4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/picture/gongyi5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/picture/gongyi6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/picture/gongyi7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/picture/gongyi8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/picture/gongyi9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/picture/ico_down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/picture/ico_up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/picture/idea_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/picture/idea_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/picture/idea_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/picture/idea_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/picture/investor_wechat.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/home/picture/planet.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/mancen/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/bootstrap/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/bootstrap/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/bootstrap/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/bootstrap/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/bootstrap/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/font-awesome/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/font-awesome/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/js/jquery-3.2.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/js/jquery-3.2.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/js/jquery-md5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/js/jquery.md5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/css/layui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/css/layui.mobile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/css/modules/code.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/css/modules/layer/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/css/modules/layer/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/font/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/font/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/font/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/font/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/images/face/0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/images/face/1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/images/face/10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/images/face/11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/images/face/12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/images/face/13.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/images/face/14.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/images/face/15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/images/face/16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/images/face/17.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/images/face/18.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/images/face/19.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/images/face/2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/images/face/20.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/images/face/21.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/images/face/22.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/images/face/23.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/images/face/24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/images/face/25.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/images/face/26.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/images/face/27.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/images/face/28.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/images/face/29.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/images/face/3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/images/face/30.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/images/face/31.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/images/face/32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/images/face/33.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/images/face/34.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/images/face/35.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/images/face/36.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/images/face/37.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/images/face/38.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/images/face/39.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/images/face/4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/images/face/40.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/images/face/41.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/images/face/42.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/images/face/43.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/images/face/44.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/images/face/45.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/images/face/46.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/images/face/47.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/images/face/48.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/images/face/49.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/images/face/5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/images/face/50.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/images/face/51.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/images/face/52.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/images/face/53.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/images/face/54.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/images/face/55.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/images/face/56.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/images/face/57.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/images/face/58.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/images/face/59.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/images/face/6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/images/face/60.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/images/face/61.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/images/face/62.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/images/face/63.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/images/face/64.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/images/face/65.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/images/face/66.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/images/face/67.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/images/face/68.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/images/face/69.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/images/face/7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/images/face/70.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/images/face/71.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/images/face/8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/images/face/9.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/lay/modules/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/lay/modules/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/lay/modules/element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/lay/modules/flow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/lay/modules/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/lay/modules/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/lay/modules/laydate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/lay/modules/layedit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/lay/modules/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/lay/modules/laypage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/lay/modules/laytpl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/lay/modules/mobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/lay/modules/table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/lay/modules/tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/lay/modules/upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/lay/modules/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/layui.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/common/layui/layui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/frontend/images/timg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/mancen/Article.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/mancen/CategoryList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/mancen/Vincent.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/mancen/account.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/mancen/anzhuang.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/mancen/anzhuang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/mancen/banner_add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/mancen/banner_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/mancen/cop.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/mancen/css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/mancen/css/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/mancen/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/mancen/css/message.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/mancen/css/nprogress.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/mancen/css/themes/blue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/mancen/css/themes/default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/mancen/css/themes/green.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/mancen/css/themes/orange.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/mancen/css/themes/pink.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/mancen/css/themes/red.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/mancen/css/treeselect.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/mancen/css/ztree/awesome/fa.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/mancen/css/ztree/awesome/img/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/mancen/css/ztree/awesome/ztree.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/mancen/css/ztree/awesome/ztree.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/mancen/css/ztree/default/img/diy/1_close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/mancen/css/ztree/default/img/diy/1_open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/mancen/css/ztree/default/img/diy/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/mancen/css/ztree/default/img/diy/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/mancen/css/ztree/default/img/diy/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/mancen/css/ztree/default/img/diy/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/mancen/css/ztree/default/img/diy/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/mancen/css/ztree/default/img/diy/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/mancen/css/ztree/default/img/diy/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/mancen/css/ztree/default/img/diy/9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/mancen/css/ztree/default/img/line_conn.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/mancen/css/ztree/default/img/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/mancen/css/ztree/default/img/zTreeStandard.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/mancen/css/ztree/default/img/zTreeStandard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/mancen/css/ztree/default/ztree.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/mancen/css/ztree/metro/img/line_conn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/mancen/css/ztree/metro/img/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/mancen/css/ztree/metro/img/metro.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/mancen/css/ztree/metro/img/metro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/mancen/css/ztree/metro/ztree.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/mancen/databaseList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/mancen/datas/navbar1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/mancen/datas/navbar2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/mancen/datas/onelevel1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/mancen/debug.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/mancen/fenlei.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/mancen/form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/mancen/grade_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/mancen/images/0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/mancen/images/login.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/mancen/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/mancen/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/mancen/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/mancen/js/kitconfig.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/mancen/js/loader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/mancen/js/message.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/mancen/js/navbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/mancen/js/nprogress.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/mancen/js/onelevel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/mancen/js/pjax.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/mancen/js/spa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/mancen/js/tab.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/mancen/js/treeselect.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/mancen/js/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/mancen/js/ztree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/mancen/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/mancen/login_tiaozhuan.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/mancen/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/mancen/makeList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/mancen/memberList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/mancen/member_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/mancen/message.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/mancen/moban.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/mancen/module.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/mancen/navbar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/mancen/roleList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/mancen/seting.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/mancen/shujuku.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/mancen/table.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/mancen/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/mancen/tianjiafenlei.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/mancen/tianjiajuese.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/mancen/tianjiayonghu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/mancen/tianjiazuozhe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/mancen/user_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/mancen/views/form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/mancen/wenzhang.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/mancen/zaixianshengji.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/mancen/ztree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/Start.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/common/Bootstrap.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/common/Constants.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/common/constants.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/common/DirPaths.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/common/Functions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/common/LoadFiles.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/core/App.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/core/Code.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/core/Controller.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/core/Database.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/core/Debug.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/core/Directory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/core/Exception.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/core/Image.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/core/Log.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/core/Page.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/core/Upload.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/core/Url.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/core/View.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/core/etc/Init.Config.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/data/font/GABRIOLA.TTF" beforeDir="false" afterPath="$PROJECT_DIR$/framework/resource/font/GABRIOLA.TTF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/data/font/simkai.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/framework/resource/font/simkai.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/data/water/water.png" beforeDir="false" afterPath="$PROJECT_DIR$/framework/resource/water/water.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/Autoloader.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/Autoloader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/Smarty.class.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/SmartyBC.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/SmartyBC.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/debug.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/debug.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/plugins/block.textformat.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/plugins/block.textformat.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/plugins/function.counter.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/plugins/function.counter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/plugins/function.cycle.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/plugins/function.cycle.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/plugins/function.fetch.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/plugins/function.html_checkboxes.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/plugins/function.html_checkboxes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/plugins/function.html_image.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/plugins/function.html_image.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/plugins/function.html_options.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/plugins/function.html_options.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/plugins/function.html_radios.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/plugins/function.html_radios.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/plugins/function.html_select_date.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/plugins/function.html_select_date.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/plugins/function.html_select_time.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/plugins/function.html_select_time.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/plugins/function.html_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/plugins/function.mailto.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/plugins/function.mailto.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/plugins/function.math.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/plugins/function.math.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/plugins/modifier.capitalize.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/plugins/modifier.capitalize.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/plugins/modifier.date_format.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/plugins/modifier.date_format.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/plugins/modifier.debug_print_var.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/plugins/modifier.debug_print_var.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/plugins/modifier.escape.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/plugins/modifier.escape.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/plugins/modifier.regex_replace.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/plugins/modifier.regex_replace.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/plugins/modifier.replace.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/plugins/modifier.replace.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/plugins/modifier.spacify.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/plugins/modifier.spacify.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/plugins/modifier.truncate.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/plugins/modifier.truncate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/plugins/modifiercompiler.cat.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/plugins/modifiercompiler.cat.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/plugins/modifiercompiler.count_characters.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/plugins/modifiercompiler.count_characters.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/plugins/modifiercompiler.count_paragraphs.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/plugins/modifiercompiler.count_paragraphs.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/plugins/modifiercompiler.count_sentences.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/plugins/modifiercompiler.count_sentences.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/plugins/modifiercompiler.count_words.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/plugins/modifiercompiler.count_words.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/plugins/modifiercompiler.default.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/plugins/modifiercompiler.default.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/plugins/modifiercompiler.escape.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/plugins/modifiercompiler.escape.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/plugins/modifiercompiler.from_charset.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/plugins/modifiercompiler.from_charset.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/plugins/modifiercompiler.indent.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/plugins/modifiercompiler.indent.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/plugins/modifiercompiler.lower.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/plugins/modifiercompiler.lower.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/plugins/modifiercompiler.noprint.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/plugins/modifiercompiler.noprint.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/plugins/modifiercompiler.string_format.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/plugins/modifiercompiler.string_format.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/plugins/modifiercompiler.strip.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/plugins/modifiercompiler.strip.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/plugins/modifiercompiler.strip_tags.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/plugins/modifiercompiler.strip_tags.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/plugins/modifiercompiler.to_charset.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/plugins/modifiercompiler.to_charset.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/plugins/modifiercompiler.unescape.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/plugins/modifiercompiler.unescape.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/plugins/modifiercompiler.upper.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/plugins/modifiercompiler.upper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/plugins/modifiercompiler.wordwrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/plugins/modifiercompiler.wordwrap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/plugins/outputfilter.trimwhitespace.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/plugins/outputfilter.trimwhitespace.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/plugins/shared.escape_special_chars.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/plugins/shared.escape_special_chars.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/plugins/shared.literal_compiler_param.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/plugins/shared.literal_compiler_param.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/plugins/shared.make_timestamp.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/plugins/shared.make_timestamp.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/plugins/shared.mb_str_replace.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/plugins/shared.mb_str_replace.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/plugins/shared.mb_unicode.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/plugins/shared.mb_unicode.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/plugins/shared.mb_wordwrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/plugins/shared.mb_wordwrap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/plugins/variablefilter.htmlspecialchars.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/plugins/variablefilter.htmlspecialchars.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_cacheresource.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_cacheresource_custom.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_cacheresource_keyvaluestore.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_data.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_block.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_block.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_cacheresource_file.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_compile_append.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_compile_append.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_compile_assign.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_compile_assign.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_compile_block.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_compile_block.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_compile_break.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_compile_break.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_compile_call.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_compile_call.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_compile_capture.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_compile_capture.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_compile_config_load.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_compile_config_load.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_compile_continue.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_compile_continue.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_compile_debug.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_compile_debug.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_compile_eval.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_compile_eval.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_compile_extends.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_compile_extends.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_compile_for.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_compile_for.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_compile_foreach.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_compile_foreach.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_compile_function.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_compile_function.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_compile_if.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_compile_if.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_compile_include.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_compile_include.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_compile_include_php.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_compile_include_php.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_compile_insert.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_compile_insert.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_compile_ldelim.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_compile_ldelim.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_compile_make_nocache.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_compile_make_nocache.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_compile_nocache.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_compile_nocache.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_compile_private_block_plugin.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_compile_private_block_plugin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_compile_private_foreachsection.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_compile_private_foreachsection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_compile_private_function_plugin.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_compile_private_function_plugin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_compile_private_modifier.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_compile_private_modifier.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_compile_private_object_block_function.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_compile_private_object_block_function.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_compile_private_object_function.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_compile_private_object_function.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_compile_private_php.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_compile_private_php.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_compile_private_print_expression.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_compile_private_print_expression.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_compile_private_registered_block.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_compile_private_registered_block.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_compile_private_registered_function.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_compile_private_registered_function.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_compile_private_special_variable.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_compile_private_special_variable.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_compile_rdelim.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_compile_rdelim.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_compile_section.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_compile_section.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_compile_setfilter.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_compile_setfilter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_compile_shared_inheritance.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_compile_shared_inheritance.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_compile_while.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_compile_while.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_compilebase.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_config_file_compiler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_configfilelexer.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_configfilelexer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_configfileparser.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_configfileparser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_data.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_debug.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_extension_clear.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_extension_clear.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_extension_handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_extension_handler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_method_addautoloadfilters.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_method_addautoloadfilters.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_method_adddefaultmodifiers.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_method_adddefaultmodifiers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_method_append.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_method_append.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_method_appendbyref.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_method_appendbyref.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_method_assignbyref.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_method_assignbyref.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_method_assignglobal.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_method_assignglobal.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_method_clearallassign.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_method_clearallassign.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_method_clearallcache.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_method_clearallcache.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_method_clearassign.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_method_clearassign.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_method_clearcache.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_method_clearcache.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_method_clearcompiledtemplate.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_method_clearcompiledtemplate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_method_clearconfig.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_method_clearconfig.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_method_compileallconfig.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_method_compileallconfig.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_method_compilealltemplates.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_method_compilealltemplates.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_method_configload.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_method_configload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_method_createdata.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_method_getautoloadfilters.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_method_getautoloadfilters.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_method_getconfigvars.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_method_getconfigvars.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_method_getdebugtemplate.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_method_getdebugtemplate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_method_getdefaultmodifiers.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_method_getdefaultmodifiers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_method_getglobal.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_method_getglobal.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_method_getregisteredobject.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_method_getregisteredobject.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_method_getstreamvariable.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_method_getstreamvariable.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_method_gettags.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_method_gettags.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_method_gettemplatevars.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_method_loadfilter.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_method_loadfilter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_method_loadplugin.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_method_loadplugin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_method_mustcompile.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_method_mustcompile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_method_registercacheresource.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_method_registercacheresource.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_method_registerclass.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_method_registerclass.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_method_registerdefaultconfighandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_method_registerdefaultconfighandler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_method_registerdefaultpluginhandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_method_registerdefaultpluginhandler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_method_registerdefaulttemplatehandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_method_registerdefaulttemplatehandler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_method_registerfilter.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_method_registerfilter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_method_registerobject.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_method_registerobject.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_method_registerplugin.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_method_registerplugin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_method_registerresource.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_method_registerresource.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_method_setautoloadfilters.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_method_setautoloadfilters.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_method_setdebugtemplate.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_method_setdebugtemplate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_method_setdefaultmodifiers.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_method_setdefaultmodifiers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_method_unloadfilter.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_method_unloadfilter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_method_unregistercacheresource.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_method_unregistercacheresource.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_method_unregisterfilter.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_method_unregisterfilter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_method_unregisterobject.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_method_unregisterobject.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_method_unregisterplugin.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_method_unregisterplugin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_method_unregisterresource.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_method_unregisterresource.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_nocache_insert.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_nocache_insert.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_parsetree.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_parsetree_code.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_parsetree_dq.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_parsetree_dq.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_parsetree_dqcontent.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_parsetree_dqcontent.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_parsetree_tag.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_parsetree_tag.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_parsetree_template.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_parsetree_template.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_parsetree_text.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_parsetree_text.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_resource_eval.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_resource_extends.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_resource_file.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_resource_php.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_resource_php.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_resource_registered.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_resource_stream.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_resource_string.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_runtime_cachemodify.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_runtime_cachemodify.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_runtime_capture.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_runtime_capture.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_runtime_codeframe.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_runtime_codeframe.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_runtime_filterhandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_runtime_filterhandler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_runtime_foreach.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_runtime_getincludepath.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_runtime_getincludepath.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_runtime_inheritance.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_runtime_inheritance.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_runtime_make_nocache.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_runtime_make_nocache.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_runtime_tplfunction.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_runtime_tplfunction.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_runtime_updatecache.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_runtime_updatecache.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_runtime_updatescope.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_runtime_writefile.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_runtime_writefile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_smartytemplatecompiler.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_smartytemplatecompiler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_templatebase.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_templatebase.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_templatecompilerbase.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_templatelexer.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_templatelexer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_templateparser.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_templateparser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_testinstall.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_testinstall.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_internal_undefined.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_internal_undefined.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_resource.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_resource_custom.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_resource_recompiled.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_resource_recompiled.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_resource_uncompiled.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_resource_uncompiled.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_security.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_security.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_template_cached.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_template_cached.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_template_compiled.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_template_compiled.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_template_config.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_template_config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_template_resource_base.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_template_resource_base.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_template_source.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_template_source.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_undefined_variable.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_undefined_variable.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smarty_variable.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smarty_variable.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smartycompilerexception.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smartycompilerexception.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/org/smarty/sysplugins/smartyexception.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/org/smarty/sysplugins/smartyexception.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/tpl/DeBug.Tpl" beforeDir="false" afterPath="$PROJECT_DIR$/framework/resource/view/DeBug.Tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/tpl/Error.Tpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/tpl/Index.Tpl" beforeDir="false" afterPath="$PROJECT_DIR$/app/temp/log/2018_04_19.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/tpl/Redirect.Tpl" beforeDir="false" afterPath="$PROJECT_DIR$/framework/resource/view/Redirect.Tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aqphp/tpl/Success.Tpl" beforeDir="false" afterPath="$PROJECT_DIR$/framework/resource/view/Success.Tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="tsconfig.json" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>public/</find>
+      <find>main</find>
+      <find>main.html</find>
+      <find>data-options</find>
+      <find>picture/</find>
+      <find>https</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>static/</replace>
+      <replace>home/picture/</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>E:\PhpStorm Workspace\AQPHP Framework</dir>
+      <dir>E:\PhpStorm Workspace\AQPHP Framework\public\static\mancen</dir>
+      <dir>E:\PhpStorm Workspace\AQPHP Framework\public\static\mancen\js</dir>
+      <dir>E:\PhpStorm Workspace\AQPHP Framework\public\home\js</dir>
+      <dir>E:\PhpStorm Workspace\AQPHP Framework\public\home</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/common/conf/config.php" />
+        <option value="$PROJECT_DIR$/app/templete/mancen/Login/index.html" />
+        <option value="$PROJECT_DIR$/app/common/controller/FontendBase.php" />
+        <option value="$PROJECT_DIR$/app/common/controller/HomeBase.php" />
+        <option value="$PROJECT_DIR$/app/common/controller/Base.php" />
+        <option value="$PROJECT_DIR$/app/home/controller/Index.php" />
+        <option value="$PROJECT_DIR$/public/index.php" />
+        <option value="$PROJECT_DIR$/public/static/mancen/js/tab.js" />
+        <option value="$PROJECT_DIR$/app/common/controller/MancenBase.php" />
+        <option value="$PROJECT_DIR$/framework/aqphp/Controller.php" />
+        <option value="$PROJECT_DIR$/public/tsconfig.json" />
+        <option value="$PROJECT_DIR$/public/static/mancen/index.html" />
+        <option value="$PROJECT_DIR$/app/templete/mancen/Index/index.html" />
+        <option value="$PROJECT_DIR$/public/mancen/index.php" />
+        <option value="$PROJECT_DIR$/public/test.json" />
+        <option value="$PROJECT_DIR$/framework/common/functions.php" />
+        <option value="$PROJECT_DIR$/public/static/mancen/js/app.js" />
+        <option value="$PROJECT_DIR$/public/static/mancen/js/navbar.js" />
+        <option value="$PROJECT_DIR$/app/mancen/controller/Seting.php" />
+        <option value="$PROJECT_DIR$/framework/aqphp/Db.php" />
+        <option value="$PROJECT_DIR$/public/home/js/tvp.player_v2_jq.js" />
+        <option value="$PROJECT_DIR$/public/home/js/redirect.js" />
+        <option value="$PROJECT_DIR$/app/templete/home/Index/index.html" />
+        <option value="$PROJECT_DIR$/framework/aqphp/bin/App.php" />
+        <option value="$PROJECT_DIR$/app/mancen/controller/Login.php" />
+        <option value="$PROJECT_DIR$/app/mancen/controller/Index.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-4" />
+    <option name="width" value="591" />
+    <option name="height" value="316" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="AQPHP Framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AQPHP Framework" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\PhpStorm Workspace\AQPHP Framework\app\templete\mancen\Seting" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\PhpStorm Workspace\AQPHP Framework\public" />
+      <recent name="E:\PhpStorm Workspace\AQPHP Framework\app\tamplate\mancen\Index" />
+      <recent name="E:\PhpStorm Workspace\AQPHP Framework\app\common\controller" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fe41485a-d23f-4e92-a133-8277446343c2" name="Default" comment="" />
+      <created>1523323948239</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1523323948239</updated>
+      <workItem from="1523323949743" duration="1990000" />
+      <workItem from="1523445282170" duration="600000" />
+      <workItem from="1523766160167" duration="659000" />
+      <workItem from="1523767516560" duration="128000" />
+      <workItem from="1523771983990" duration="801000" />
+      <workItem from="1523792527444" duration="3000" />
+      <workItem from="1524127963702" duration="4805000" />
+      <workItem from="1524142772576" duration="299000" />
+      <workItem from="1524210219655" duration="1254000" />
+      <workItem from="1524213517351" duration="6003000" />
+      <workItem from="1524373600906" duration="9000" />
+      <workItem from="1524383623235" duration="10854000" />
+      <workItem from="1524483138087" duration="19000" />
+      <workItem from="1524485637561" duration="98000" />
+      <workItem from="1524558089385" duration="428000" />
+      <workItem from="1524571832587" duration="5000" />
+      <workItem from="1525919648233" duration="673000" />
+      <workItem from="1525940994288" duration="1841000" />
+      <workItem from="1526017298782" duration="769000" />
+      <workItem from="1526206854005" duration="6000" />
+      <workItem from="1526209472674" duration="560000" />
+      <workItem from="1526807509765" duration="2576000" />
+      <workItem from="1526971364158" duration="135000" />
+      <workItem from="1527229519926" duration="611000" />
+      <workItem from="1527418468820" duration="6000" />
+      <workItem from="1527422197964" duration="281000" />
+      <workItem from="1527423686156" duration="177000" />
+      <workItem from="1527424633088" duration="763000" />
+      <workItem from="1527425457803" duration="673000" />
+      <workItem from="1527568100560" duration="6000" />
+      <workItem from="1527753737039" duration="1523000" />
+      <workItem from="1527998297725" duration="161000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="38716000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.118229166" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Remote Host" order="4" weight="0.329429" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32946146" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/framework/aqphp/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2300">
+          <caret line="100" column="12" selection-start-line="100" selection-start-column="12" selection-end-line="100" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/static/mancen/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/mancen/controller/Index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/home/controller/Index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/mancen/controller/Index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templete/mancen/Index/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8466">
+          <caret line="249" column="34" lean-forward="true" selection-start-line="249" selection-start-column="34" selection-end-line="249" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/mancen/controller/Login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1836">
+          <caret line="62" column="26" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/static/mancen/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/RunTime.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2484" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/common/conf/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templete/mancen/Login/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="873">
+          <caret line="109" column="8" selection-start-line="109" selection-start-column="8" selection-end-line="109" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/static/mancen/css/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-207" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/static/mancen/js/loader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-30" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/static/mancen/js/ztree.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-81074">
+          <caret line="232" column="47" selection-start-line="232" selection-start-column="43" selection-end-line="232" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/static/mancen/js/utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5153" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/static/mancen/js/spa.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-346" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/static/mancen/js/pjax.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4968" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/mancen/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templete/mancen/Seting/seting.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-184">
+          <caret line="13" column="46" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/static/mancen/datas/navbar2.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-921" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/static/mancen/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-751">
+          <caret line="30" column="60" selection-start-line="30" selection-start-column="60" selection-end-line="30" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/test.json" />
+    <entry file="file://$PROJECT_DIR$/public/static/mancen/datas/navbar1.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1243">
+          <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/temp/tpl/mancen/1fcb1e96cfc904f5a74936caafe06252ffce9c5a_0.file.index.html.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="102" column="87" selection-start-line="102" selection-start-column="82" selection-end-line="102" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/static/mancen/js/tab.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3856">
+          <caret line="124" column="52" lean-forward="true" selection-start-line="124" selection-start-column="52" selection-end-line="124" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/static/mancen/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="89" column="60" lean-forward="true" selection-start-line="89" selection-start-column="60" selection-end-line="89" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templete/mancen/Index/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="191" column="7" lean-forward="true" selection-start-line="191" selection-start-column="7" selection-end-line="191" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/static/mancen/js/navbar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="200" column="36" selection-start-line="200" selection-start-column="36" selection-end-line="200" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/common/controller/Base.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/common/controller/MancenBase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="597">
+          <caret line="34" column="59" selection-start-line="34" selection-start-column="59" selection-end-line="34" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/aqphp/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="597">
+          <caret line="105" lean-forward="true" selection-start-line="105" selection-end-line="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/mancen/controller/Seting.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_7.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="568" column="9" selection-start-line="568" selection-start-column="9" selection-end-line="568" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/common/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="164" column="22" lean-forward="true" selection-start-line="164" selection-start-column="22" selection-end-line="164" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/home/js/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/home/js/bowser.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/home/js/ef182285656e4f79b29b223722348f54.js" />
+    <entry file="file://$PROJECT_DIR$/public/home/js/tvp.player_v2_jq.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1283">
+          <caret line="7" column="10599" selection-start-line="7" selection-start-column="10599" selection-end-line="7" selection-end-column="10599" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.webworker.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="582">
+          <caret line="1560" column="13" selection-start-line="1560" selection-start-column="13" selection-end-line="1560" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/home/js/redirect.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templete/home/Index/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8533">
+          <caret line="371" column="47" lean-forward="true" selection-start-line="371" selection-start-column="47" selection-end-line="371" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/common/controller/HomeBase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/home/controller/Index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/aqphp/etc/Init.Config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/aqphp/Db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="359" lean-forward="true" selection-start-line="359" selection-end-line="359" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/aqphp/Dir.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2691">
+          <caret line="124" column="30" selection-start-line="124" selection-start-column="27" selection-end-line="124" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/aqphp/Upload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7222">
+          <caret line="322" column="13" selection-start-line="306" selection-start-column="36" selection-end-line="322" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/mancen/controller/Index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/mancen/controller/Login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="828">
+          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/aqphp/bin/App.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="170" selection-start-line="170" selection-end-line="170" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

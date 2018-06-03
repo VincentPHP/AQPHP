@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>分类列表</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+ 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link rel="stylesheet" href="static/common/layui/css/layui.css" media="all" />
+		<link rel="stylesheet" href="static/mancen/css/global.css" media="all">
+		<link rel="stylesheet" href="static/common/css/font-awesome.min.css">
+		<link rel="stylesheet" href="static/mancen/css/table.css" />
+		<style type="text/css">
+			th{
+				overflow: hidden;
+				text-overflow:ellipsis;
+				white-space: nowrap;
+			}
+			.bottom{
+				position: fixed;
+				bottom: 0;
+				width: 100%;
+				height: 55px;
+				background: #EEEEEE;
+				margin-left: -15px;
+			}
+			.layui-btn{
+				height: 30px;
+				line-height: 25px;
+				font-size: 13px;
+	    	}
+		</style>
+	</head>
+	<body>
+		<div class="admin-main">
+				<div class="layui-field-box layui-form">
+					<table class="layui-table" lay-data="{height:315, url:'table.json', page:true, id:'test',height: 'full-25'}" lay-filter="test" id="test">
+				        <thead>
+				            <tr>
+				            	<th lay-data="{type:'checkbox'}"></th>
+				                <th lay-data="{field:'id',width:228 , edit: 'text', sort: true}">分类名</th>
+				                <th lay-data="{field:'username',width:228 , edit: 'text'}">分类描述</th>
+				                <th lay-data="{field:'sex',width:228 , edit: 'text', sort: true}">父级分类</th>
+				                <th lay-data="{field:'city',width:228 , edit: 'text'}">创建时间</th>
+				                <th lay-data="{field:'sign',width:228 , edit: 'text'}">层积</th>
+				                <th lay-data="{field:'sign',width:228 , edit: 'text'}">创建者</th>
+				                <th lay-data="{width:228 , align:'center', toolbar: '#barDemo'}">操作</th>
+				            </tr>
+				        </thead>
+				  </table>
+				</div>
+		</div>
+		<!--模板-->
+		<script type="text/html" id="tpl">
+			{{# layui.each(d.list, function(index, item){ }}
+			<tr>
+				<td><input type="checkbox" lay-skin="primary"></td>
+				<td>{{ item.name }}</td>
+				<td>{{ item.age }}</td>
+				<td>{{ item.createtime }}</td>
+				<td>
+					<a href="/detail-1" target="_blank" class="layui-btn layui-btn-normal layui-btn-mini">预览</a>
+					<a href="javascript:;" data-name="{{ item.name }}" data-opt="edit" class="layui-btn layui-btn-mini">编辑</a>
+					<a href="javascript:;" data-id="1" data-opt="del" class="layui-btn layui-btn-danger layui-btn-mini">删除</a>
+				</td>
+			</tr>
+			{{# }); }}
+		</script>
+		<script type="text/html" id="barDemo">
+			<a class="layui-btn layui-btn-primary layui-btn-xs" lay-event="detail">查看</a>
+			<a class="layui-btn layui-btn-xs" lay-event="edit">编辑</a>
+			<a class="layui-btn layui-btn-danger layui-btn-xs" lay-event="del">删除</a>
+		</script>
+		<script type="text/javascript" src="static/common/layui/layui.all.js"></script>
+		<script>
+			
+			layui.config({
+				base: 'static/common/layui/lay/'
+			});
+			
+			layui.use(['jquery','laypage','form'], function()
+			{
+				var $ = layui.jquery,
+					laypage = layui.laypage,
+					layerTips = parent.layer === undefined ? layui.layer : parent.layer, //获取父窗口的layer对象
+					layer = layui.layer, //获取当前窗口的layer对象
+					form = layui.form;
+
+				//点击添加分类
+				$("#fenlei").click(function()
+				{
+					//添加弹框
+					layer.open({
+					  	type: 2,  //iframe
+					  	title: '添加分类',
+					  	shadeClose: true,
+					  	shade: 0.8,
+					 	area: ['355px', '41%'],         //弹框默认宽高
+					  	content: 'tianjiafenlei.html',  //iframe的url
+						resize:true						//允许窗口拉伸
+					}); 
+				});
+				
+				
+				//分页
+                laypage.render({
+                    elem: 'demo1'
+                    ,count: 70 //数据总数
+                    ,jump: function(obj){
+                        console.log(obj)
+                    }
+                });
+				
+				
+				//获取所有选择的列
+				$('#getSelected').on('click', function() {
+					var names = '';
+					$('#content').children('tr').each(function() {
+						var $that = $(this);
+						var $cbx = $that.children('td').eq(0).children('input[type=checkbox]')[0].checked;
+						if($cbx) {
+							var n = $that.children('td:last-child').children('a[data-opt=edit]').data('name');
+							names += n + ',';
+						}
+					});
+					layer.msg('你选择的名称有：' + names);
+				});
+			});
+		</script>
+	</body>
+
+</html>
