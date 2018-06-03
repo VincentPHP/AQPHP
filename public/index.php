@@ -16,8 +16,4 @@ define("APP_PATH", __DIR__.'/..');
 define("MODULE_PATH", APP_PATH.'/app');
 
 //引入框架文件
-<<<<<<< HEAD:public/index.php
 require __DIR__ . '/../framework/Start.php';
-=======
-require __DIR__ . '/../framework/Start.php';
->>>>>>> 46dd36e6a4bc8f97496d340bf0dd61d912f2990f:public/index.php
