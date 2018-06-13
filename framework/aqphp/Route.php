@@ -40,6 +40,9 @@ class Route
                 $get['c'] = $info[0];
                 array_shift($info);
 
+                $get['v'] = $info[0];
+                array_shift($info);
+
                 $get['a'] = $info[0];
                 array_shift($info);
             }
@@ -50,12 +53,12 @@ class Route
             }
 
             $_GET = $get;
-
         }
 
-        define("MODULE", isset($_GET['m']) && !empty($_GET['m']) ? $_GET['m']:config('DEFAULT_MODULE'));
-        define("CONTROL",isset($_GET['c']) && !empty($_GET['c']) ? $_GET['c']:config('DEFAULT_CONTROL'));
-        define("ACTION", isset($_GET['a']) && !empty($_GET['a']) ? $_GET['a']:config('DEFAULT_ACTION'));
+        define("MODULE",  isset($_GET['m']) && !empty($_GET['m']) ? $_GET['m']:config('DEFAULT_MODULE'));
+        define("CONTROL", isset($_GET['c']) && !empty($_GET['c']) ? $_GET['c']:config('DEFAULT_CONTROL'));
+        define("VERISON", isset($_GET['v']) && !empty($_GET['v']) ? $_GET['v']:config('DEFAULT_VERISON'));
+        define("ACTION",  isset($_GET['a']) && !empty($_GET['a']) ? $_GET['a']:config('DEFAULT_ACTION'));
     }
 
 

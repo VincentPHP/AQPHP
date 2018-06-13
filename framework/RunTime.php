@@ -31,7 +31,7 @@ class RunTime
 
         $moduleDir = MODULE_PATH.'/'.config('DEFAULT_MODULE');//默认模块路径
 
-        if(!is_dir($moduleDir))
+        if(!is_dir(MODULE_PATH))
         {
             $this->welcome();//框架演示函数
         }
@@ -180,12 +180,9 @@ str;
         $fileDir[0] = $defaultModule.'/controller/'.$defaultControl.config('CLASS_FIX').'.php';
 
         //组合模板路径
-        if(!config('START_TPLDIR'))
-        {
+        if(!config('START_TPLDIR')) {
             $actionFile = "{$defaultModule}/view/{$actionDir}";//View模板路径
-        }
-        else
-        {
+        } else {
             $actionFile = config('TEMPLETE_PATH').'/'
                 .config('DEFAULT_MODULE').'/'
                 .config('DEFAULT_CONTROL'); //Templete模板路径
@@ -193,15 +190,12 @@ str;
 
         $fileDir[1]  = $actionFile.'/'.$indexFile; //方法模板文件名
 
-        if(config('START_TPLDIR') && !is_dir($actionFile))
-        {
+        if(config('START_TPLDIR') && !is_dir($actionFile)) {
             mkdir($actionFile, 0777, true); //创建模板目录
         }
 
-        for($i=0; $i<count($fileDir); $i++)
-        {
-            if(!is_file($fileDir[$i]))
-            {
+        for($i=0; $i<count($fileDir); $i++) {
+            if(!is_file($fileDir[$i])) {
                 file_put_contents($fileDir[$i], $code[$i]); //创建默认演示文件
             }
         }
@@ -213,13 +207,11 @@ str;
      */
     public function createDir()
     {
-        if(!is_dir(TEMP_PATH))
-        {
+        if(!is_dir(TEMP_PATH)) {
             mkdir(TEMP_PATH, 0777); //判断目录是否存在
         }
 
-        if(!is_writable(TEMP_PATH))
-        {
+        if(!is_writable(TEMP_PATH)) {
             error("目录没有写入权限，程序无法运行");//检测目录是否有写入权限
         }
 
@@ -229,8 +221,7 @@ str;
             config('PUBLIC_PATH'), config('TEMPLETE_PATH')
         );
 
-        for($i=0; $i<count($path); $i++)
-        {
+        for($i=0; $i<count($path); $i++) {
             if(!is_dir($path[$i])) mkdir($path[$i], 0777, true);
         }
     }

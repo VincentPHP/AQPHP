@@ -71,7 +71,7 @@ class App
     {
         Route::parseUrl();//调用路由
 
-        $control = A(MODULE.'.'.CONTROL);
+        $control = A(MODULE.'.'.CONTROL.'.'.VERISON);
 
         $action  = ACTION;
 

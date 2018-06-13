@@ -27,9 +27,9 @@ class Start
             define("APP_PATH", dirname($_SERVER['SCRIPT_FILENAME']));
         }
 
-        define("PHP_PATH"  , dirname(__FILE__)); //框架外目录
-        define("TEMP_PATH" , MODULE_PATH.'/temp'   ); //缓存目录
-        define("AQPHP_PATH", PHP_PATH.'/aqphp'     ); //框架内目录
+        define("PHP_PATH"  , dirname(__FILE__));//框架外目录
+        define("TEMP_PATH" , MODULE_PATH.'/temp');   //缓存目录
+        define("AQPHP_PATH", PHP_PATH.'/aqphp');     //框架内目录
 
         require 'RunTime.php';  //引入初始化文件
 

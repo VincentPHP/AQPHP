@@ -116,40 +116,45 @@ function notice($error)
  */
 function A($control)
 {
-   if(strstr($control,'.'))
-   { 
+   if(strstr($control,'.')) {
        $arr = explode('.', $control);
        
        $module  = $arr[0];
-       $control = $arr[1];
-   }
-   else
-   {
+       $verison = $arr[1];
+       $control = $arr[2];
+   } else {
        $module = MODULE;
    }
-   
+
    static $controlArr = array();
    
    $control = $control.config("CONTROL_FIX");
    
-   if(isset($controlArr[$control]))
-   {
+   if(isset($controlArr[$control])) {
        return $controlArr[$control];
    }
-   
-   $controlPath = MODULE_PATH.'/'.$module.'/controller/'.$control.config("CLASS_FIX").'.php';
+
+   if($verison) {
+       $conPath = MODULE_PATH.'/'.$module.'/controller/'.$verison.'/';
+   } else {
+       $conPath = MODULE_PATH.'/'.$module.'/controller/';
+   }
+
+   $controlPath = $conPath.$control.config("CLASS_FIX").'.php';
 
    loadFile($controlPath);//载入文件函数
-   
-   $control = "\\$module\\controller\\$control";
 
-   if(class_exists($control))
-   {
+   //判断是否是API
+   if($verison) {
+       $control = "\\$module\\controller\\$verison\\$control";
+   } else {
+       $control = "\\$module\\controller\\$control";
+   }
+
+   if(class_exists($control)) {
        $controlArr[$control] = new $control();
        return $controlArr[$control];
-   }
-   else
-   {    
+   } else {
        return false;
    }
 }

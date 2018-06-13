@@ -91,6 +91,7 @@ return array(
     
     //项目配置项
     "DEFAULT_MODULE"  => 'home' ,       //默认模块
+    "DEFAULT_VERISON" => FALSE,         //默认版本
     "DEFAULT_CONTROL" => 'Index',       //默认控制器
     "DEFAULT_ACTION"  => 'index',       //默认方法
     "CONTROL_FIX"     => '',            //默认控制器后缀
@@ -101,9 +102,10 @@ return array(
     "TEMPLETE_PATH"	  => MODULE_PATH.'/templete',//应用模块视图目录
     
     //全局常量
-    "VAR_MODULE "     => 'm',           //模块变量
+    "VAR_MODULE"      => 'm',           //模块变量
+    "VAR_VERISON"     => 'v',           //版本变量
     "VAR_CONTROL"     => 'c',           //控制器变量
-    "VAR_ACTION "     => 'a',           //方法动作
+    "VAR_ACTION"      => 'a',           //方法动作
     
     //第三方类库
     "ORG_CLASS_DIR"   => array('org'),  //类库目录名
