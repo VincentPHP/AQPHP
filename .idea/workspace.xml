@@ -5,17 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16b8b0bc-4395-4cc6-80cb-fd3c78f6b121" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Vincent.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/api/controller/BaseController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/api/controller/v1/Banner.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/api/controller/v1/Home.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/RunTime.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/RunTime.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/Start.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/Start.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/aqphp/Route.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/Route.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/aqphp/bin/App.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/bin/App.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/aqphp/etc/Init.Config.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/aqphp/etc/Init.Config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/common/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/common/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/New Text Document.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,7 +16,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="1" selection-start-column="1" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -50,6 +51,7 @@
         <option value="$PROJECT_DIR$/app/api/controller/v1/Banner.php" />
         <option value="$PROJECT_DIR$/framework/Start.php" />
         <option value="$PROJECT_DIR$/framework/RunTime.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -75,6 +77,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -82,33 +85,15 @@
               <item name="AQPHP Framework" type="b2602c69:ProjectViewProjectNode" />
               <item name="AQPHP Framework" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="AQPHP Framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AQPHP Framework" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AQPHP Framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AQPHP Framework" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AQPHP Framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AQPHP Framework" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
@@ -141,14 +126,16 @@
       <workItem from="1528422914927" duration="849000" />
       <workItem from="1528423983524" duration="7958000" />
       <workItem from="1528445709106" duration="660000" />
+      <workItem from="1529051751208" duration="28000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11407000" />
+    <option name="totallyTimeSpent" value="11435000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13072917" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -255,9 +242,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/templete/home/Index/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templete/home/Index/index.html" />
     <entry file="file://$PROJECT_DIR$/framework/Start.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-208">
@@ -283,6 +268,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="643">
           <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
         </state>
       </provider>
     </entry>
